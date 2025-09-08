@@ -1,36 +1,36 @@
 ## Stored vector
-assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+> assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
 
 ## Confirmation that the vector was stored successfully
-assignment2
+> assignment2
 [1] 16 18 14 22 27 17 19 17 17 22 20 22
 
 ## First run of myMean function
-myMean <- function(assignment2) {
+> myMean <- function(assignment2) {
   return(sum(assignment) / length(someData))
-}
+  }
 
-myMean(assignment2)
+> myMean(assignment2)
 # Error code 1: Error in myMean(assignment2) : object 'assignment' not found
 
 ## The initial function failed because the variable "assignment" does not exist. I changed the variable name to reflect the assignment2 object that was created intitially.
 
-myMean <- function(assignment2) {
-+     return(sum(assignment2) / length(someData))
-+ }
+> myMean <- function(assignment2) {
+      return(sum(assignment2) / length(someData))
+  }
  
 View(myMean)
-myMean(assignment2)
+> myMean(assignment2)
 # Error code 2: Error in myMean(assignment2) : object 'someData' not found
 
 ## The second function failed because the variable "someData" does not exist. I changed the variable name to reflect the assignment2 object that was created intitially.
 
 
 ## Corrected version of myMean
-myMean <- function(assignment2) {
-+     return(sum(assignment2) / length(assignment2))
-+ }
+> myMean <- function(assignment2) {
+      return(sum(assignment2) / length(assignment2))
+  }
 
-View(myMean)
-myMean(assignment2)
+> View(myMean)
+> myMean(assignment2)
 [1] 19.25
