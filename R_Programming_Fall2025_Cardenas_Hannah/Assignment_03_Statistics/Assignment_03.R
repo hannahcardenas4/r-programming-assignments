@@ -24,6 +24,9 @@ df_polls$Diff <- df_polls$CBS_poll - df_polls$ABC_poll
 ## View new data frame 
 head(df_polls)
 
+## Install ggplot2 package
+install.packages("ggplot2")
+
 ## Load ggplot2
 library(ggplot2)
 
