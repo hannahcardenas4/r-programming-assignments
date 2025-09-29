@@ -5,3 +5,4 @@
 - Reflect on computational issues (e.g., numeric stability, singularity).
 
 ## Blog link
+https://hannahsprogramminginr.blogspot.com/2025/09/assignment-5-matrix-algebra-in-r.html
