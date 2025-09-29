@@ -1,10 +1,12 @@
+## Objectives
 - Practice data cleaning and handling missing values in R.
 - Create side‑by‑side boxplots and histograms for continuous measures.
 - Interpret relationships between patient vitals and physician assessments.
 
-Blog link: https://hannahsprogramminginr.blogspot.com/2025/09/assignment-4-visualizing-and.html
+## Blog link
+https://hannahsprogramminginr.blogspot.com/2025/09/assignment-4-visualizing-and.html
 
-Plots:
+## Plots
 
 
 <img width="480" height="480" alt="Boxplot_FirstAssessment" src="https://github.com/user-attachments/assets/11baa708-e8f3-4511-bc87-c5c77570f7b1" />
