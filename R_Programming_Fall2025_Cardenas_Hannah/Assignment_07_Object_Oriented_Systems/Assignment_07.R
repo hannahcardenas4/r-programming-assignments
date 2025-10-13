@@ -1,4 +1,4 @@
-# Choose and download data set
+# Choose and download dataset
 data("mtcars")
 
 # Show first few rows
@@ -9,7 +9,7 @@ print(head(mtcars), row.names = TRUE)
 cat("\nStructure:\n")
 str(mtcars)
 
-# Choose a couple of base generic functions: print(), summary(), plot()
+# Choose a base generic function to apply to dataset
 cat("\nSummary(mtcars):\n")
 print(summary(mtcars))
 
