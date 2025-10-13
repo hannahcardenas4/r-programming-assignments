@@ -3,3 +3,4 @@
 - Learn to identify and work with S3 and S4 object systems.
 
 ## Blog link:
+https://hannahsprogramminginr.blogspot.com/2025/10/assignment-7-exploring-rs-object.html
