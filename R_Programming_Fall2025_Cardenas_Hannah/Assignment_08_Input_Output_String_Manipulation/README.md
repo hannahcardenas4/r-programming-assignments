@@ -5,3 +5,4 @@
 - Export results to text and CSV formats.
 
 ## Blog link:
+https://hannahsprogramminginr.blogspot.com/2025/10/assignment-8-inputoutput-string.html
