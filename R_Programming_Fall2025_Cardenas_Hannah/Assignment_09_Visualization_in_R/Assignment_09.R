@@ -25,7 +25,7 @@ hist(mpg_df$hwy,
 install.packages("lattice")
 library(lattice)
 
-# Box-and-whisker plot: hwy by class
+# Conditional scatter (small multiples) by vehicle class
 xyplot(hwy ~ displ | class,
        data = mpg_df,
        main = "Lattice: Highway MPG vs Displacement by Class",
