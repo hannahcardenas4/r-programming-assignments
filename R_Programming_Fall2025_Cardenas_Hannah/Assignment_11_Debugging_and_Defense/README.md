@@ -4,3 +4,4 @@
 - Document a defensive programming workflow.
 
 ## Blog link:
+https://hannahsprogramminginr.blogspot.com/2025/11/assignment-11-debugging-and-defense.html
