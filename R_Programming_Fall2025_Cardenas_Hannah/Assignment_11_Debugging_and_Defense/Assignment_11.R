@@ -18,6 +18,7 @@ corrected_tukey <- function(x) {
   outlier.vec
 }
 
+# Test
 set.seed(123)
 test_mat <- matrix(rnorm(50), nrow = 10)
 corrected_tukey(test_mat)
