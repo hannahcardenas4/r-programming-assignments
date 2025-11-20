@@ -1,0 +1,44 @@
+---
+title: "Assignment 12 Markdown"
+author: "Hannah Cardenas"
+date: "2025-11-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+## Narrative paragraph
+
+This document represents example usage of the R Markdown feature. The purpose of it is to practice R Markdown authoring and document structure, embedding R code, narrative text, and LaTeX math in a single file. It will also include a thoughtful reflection regarding the workflow vs. writing plain reports.
+
+## LaTeX math expression
+
+Here I practiced using LaTeX math expressions both inline and on their own lines. For example:
+
+This is the inline equation for the Pythagorean theorem: $a^2 + b^2 = c^2$, 
+
+And here is the same equation displayed on its own line:
+
+$$a^2 + b^2 = c^2$$
+
+## Executable R code chunks
+
+Here I wrote simple R code chunks to load ggplot and create simple scatterplot using the built in mtcars dataset. The plot shows car weight (wt) vs miles per gallon (mpg).
+```{r load_ggplot, echo=FALSE}
+library(ggplot2)
+```
+
+```{r run_ggplot, echo=FALSE}
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+```
+
+## Reflection
+
+R Markdown is a very useful format to generating a report. I like that you can easily embed plots or formulas without showing the code that was used to create them using the "echo=FALSE" line. Additionally, the section headers and narrative chunks are very easy to distinguish when writing the actual document. However, I would say that because there are both R code and narrative chunks, the process before knitting can look a bit overwhelming and may be a little difficult to keep track of. I found myself consistently editing, knitting, reviewing formatting, and then editing again since the rendered output does not exactly match what is written. That being said, I believe it provides a cleaner final report, but requires more work on the back-end. 
