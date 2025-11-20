@@ -5,3 +5,4 @@
 - Reflect on the Markdown workflow and how it supports reproducible analysis.
 
 ## Blog link:
+https://hannahsprogramminginr.blogspot.com/2025/11/assignment-12-r-markdown.html
